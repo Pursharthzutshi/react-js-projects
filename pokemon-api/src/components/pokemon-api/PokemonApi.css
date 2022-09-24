@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    font-family: "Montserrat";
+    color:rgb(135, 115, 0);
+}
+
+.input{
+    box-shadow: .2px .2px 12px .2px lightgray;
+    border: none;
+    padding:8px 12px 8px 5px;
+    outline: none;
+}
+h2{ 
+    color:rgb(135, 67, 0);
+}
+.input:focus{
+    transition: .2s;
+    border:2px solid rgb(197, 152, 3);
+    box-shadow: .2px .2px 2px .2px rgb(121, 91, 0);
+}
+
+.poke-box-container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.poke-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    height: 22rem;
+    border: 2px solid rgb(135, 67, 0);
+    box-shadow: .2px .2px 3px .2px rgb(135, 67, 0);
+    border-radius: 8px;
+}
+
+.poke-img{
+    width: 13rem;
+    height: auto;
+}
+
+.poke-contents-div{
+    margin-top: -50px;
+}
