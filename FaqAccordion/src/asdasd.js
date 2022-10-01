@@ -1,0 +1,11 @@
+{showAns? 
+    <p>{
+      FaqData.map((val)=>{
+        return(
+          <div>
+            <p>{val.ans}</p>
+          </div>
+        )
+      })
+      }</p>:null
+      }
