@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+  font-family: "Montserrat";
+}
+
 body::-webkit-scrollbar{
     background: rgb(2, 135, 90);
     box-shadow: .2px .2px 22px .2px rgb(4, 195, 87);
@@ -107,4 +114,52 @@ body::-webkit-scrollbar{
     color:rgb(2, 135, 90);
     margin-top: -10px;
     text-align: center;
+  }
+
+  .know-more-box{
+    color: white;
+    background: rgba(2, 171, 114, 0.863);
+    color: rgb(0, 51, 42);
+    position: fixed;
+    top:15%;    
+    left: 30%;
+    right: 30%;
+    border-radius: 8px;
+    padding:2px 15px 20px 15px;
+    box-shadow: .2px .2px 14px .2px rgba(0, 128, 62, 0.355);
+    z-index: +1;
+    font-family: "Roboto";
+  }
+
+  .know-more-box h2{
+    margin-top: -20px;
+    color: rgb(0, 85, 56);
+  }
+
+  .know-more-button{
+    background: rgb(0, 184, 122);
+    color: rgb(0, 47, 26);
+    box-shadow: .2px .2px 12px .2px rgb(0, 137, 92);
+    border: none;
+    font-size: .9rem;
+    padding:3px 12px 3px 12px;
+  }
+
+  .know-more-desc{
+    line-height: 27px;
+  }
+  .cross-sign-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+  }
+
+  .bg-div{
+    position: fixed;
+    top: 0%;
+    left:0%;
+    width: 100%;
+    height:100vh;
+    opacity: .8;
+    background: rgba(0, 128, 62, 0.355);
   }
